@@ -1,0 +1,24 @@
+$primary: #242943 !default;
+$secondary: #8d82c4 !default;
+$tertiary: #8ea9e8 !default;
+$success: #87c5a4 !default;
+$info: #6fc3df !default;
+$warning: #e7b788 !default;
+$danger: #ec8d81 !default;
+$github: #333 !default;
+
+// Required
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+$theme-colors: (
+  "tertiary": $tertiary,
+  "github": $github,
+);
+
+// Optional
+@import "bootstrap/bootstrap";
+
+// Custom
+@import "custom_styles";
