@@ -23,7 +23,7 @@
               <br />スタイルはbootstrapをベースにSCSSを編集しています。
             </p>
             <a
-              href="https://github.com/nozomu-y/"
+              href="https://github.com/nozomu-y/portfolio"
               class="btn btn-github"
               role="button"
               target="_blank"
