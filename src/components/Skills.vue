@@ -38,7 +38,10 @@
                 </div>
                 <p>
                   このサイトはbootstrapをベースにCSSを追記することで制作しました。詳しくは
-                  <a href>こちら</a>をご覧ください。
+                  <a
+                    href="https://github.com/nozomu-y/portfolio/tree/master/src/assets/scss"
+                    target="_blank"
+                  >こちら</a>をご覧ください。
                   <br />上記のスライダーもCSSで自作したものです。
                 </p>
               </div>
