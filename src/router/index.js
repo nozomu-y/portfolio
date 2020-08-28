@@ -9,21 +9,40 @@ Vue.use(Router);
 
 export default new Router({
   //   mode: 'history',
-  //   scrollBehavior: (to, from, savedPosition) => {
-  //     if (savedPosition) {
-  //       return savedPosition;
-  //     }
+  scrollBehavior: (to, from, savedPosition) => {
+    if (savedPosition) {
+      return savedPosition;
+    }
 
-  //     if (to.hash) {
-  //       return {selector: to.hash};
-  //     }
+    if (to.hash) {
+      return { selector: to.hash };
+    }
 
-  //     return {x: 0, y: 0};
-  //   },
+    return { x: 0, y: 0 };
+  },
   routes: [
-    { path: "/", name: "Home", component: Home },
-    { path: "/Profile", name: "Profile", component: Profile },
-    { path: "/Portfolio", name: "Portfolio", component: Portfolio },
-    { path: "/Skills", name: "Skills", component: Skills }
+    {
+      path: "/",
+      name: "Home",
+      component: Home
+    },
+    {
+      path: "/Profile",
+      name: "Profile",
+      component: Profile,
+      meta: { title: "Profile" }
+    },
+    {
+      path: "/Portfolio",
+      name: "Portfolio",
+      component: Portfolio,
+      meta: { title: "Portfolio" }
+    },
+    {
+      path: "/Skills",
+      name: "Skills",
+      component: Skills,
+      meta: { title: "Skills" }
+    }
   ]
 });
