@@ -19,7 +19,7 @@
             <h3 class="mt-3">Nozomu's Portfolio</h3>
             <p>
               本サイトです。
-              <br />vue.jsを用いて作られています。
+              <br />vue.jsを用いて作りました。
               <br />スタイルはbootstrapをベースにSCSSを編集しています。
             </p>
             <a
@@ -56,7 +56,7 @@
             <img src="@/assets/img/portfolio_2019_concert.jpg" class="portfolio" alt />
             <h3 class="mt-3">Chor Kleines 54th Concert</h3>
             <p>
-              大学で所属している合唱団で制作した演奏会のビラです。
+              大学で所属している合唱団で制作した演奏会のチラシです。
               <br />Adobe Illustratorを用いてデザインしました。
             </p>
           </div>

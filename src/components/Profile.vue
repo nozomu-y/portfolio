@@ -28,10 +28,6 @@
                 </tr>
               </tbody>
             </table>
-            <!-- <iframe
-              src="https://chorkleines.com/"
-              style="transform:scale(0.55);-o-transform:scale(0.55);-webkit-transform:scale(0.55);-moz-transform:scale(0.55);-ms-transform:scale(0.55);transform-origin:0 0;-o-transform-origin:0 0;-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;"
-            ></iframe>-->
           </div>
         </div>
       </div>
