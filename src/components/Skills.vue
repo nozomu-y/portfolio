@@ -32,8 +32,8 @@
                 <div class="slider">
                   <span></span>
                   <span></span>
-                  <span></span>
                   <span class="active"></span>
+                  <span></span>
                   <span></span>
                 </div>
                 <p>
@@ -54,8 +54,8 @@
                 <div class="slider">
                   <span></span>
                   <span></span>
-                  <span></span>
                   <span class="active"></span>
+                  <span></span>
                   <span></span>
                 </div>
                 <p>このサイトはvue.jsを用いて制作しました。</p>
@@ -84,8 +84,8 @@
                 <div class="slider">
                   <span></span>
                   <span></span>
-                  <span></span>
                   <span class="active"></span>
+                  <span></span>
                   <span></span>
                 </div>
                 <p>大学で所属している合唱団で会計システムを開発した際に利用しました。</p>
@@ -99,8 +99,8 @@
                 <div class="slider">
                   <span></span>
                   <span></span>
-                  <span></span>
                   <span class="active"></span>
+                  <span></span>
                   <span></span>
                 </div>
                 <p>
@@ -116,8 +116,8 @@
                 <h4 class="card-title text-center">Photoshop</h4>
                 <div class="slider">
                   <span></span>
-                  <span></span>
                   <span class="active"></span>
+                  <span></span>
                   <span></span>
                   <span></span>
                 </div>
@@ -131,8 +131,8 @@
                 <div class="slider">
                   <span></span>
                   <span></span>
-                  <span></span>
                   <span class="active"></span>
+                  <span></span>
                   <span></span>
                 </div>
                 <p>大学で所属している合唱団の演奏会プログラムを制作した経験があります。</p>
@@ -147,8 +147,8 @@
                   <span></span>
                   <span></span>
                   <span></span>
-                  <span></span>
                   <span class="active"></span>
+                  <span></span>
                 </div>
                 <p>大学の課題や授業で利用しています。マクロやスタイルシートを作成した経験があります。</p>
               </div>
