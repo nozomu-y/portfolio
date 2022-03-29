@@ -471,3 +471,55 @@ img {
     height: auto;
   }
 }
+
+.rating {
+    .rate {
+        font-size: 1.25rem;
+        &.rate1 {
+            &:before {
+                color: $secondary;
+                content: '★';
+            }
+            &:after{
+                color: rgba($secondary, 0.3);
+                content: '★★★★';
+            }
+        }
+        &.rate2 {
+            &:before {
+                color: $secondary;
+                content: '★★';
+            }
+            &:after{
+                color: rgba($secondary, 0.3);
+                content: '★★★';
+            }
+        }
+        &.rate3 {
+            &:before {
+                color: $secondary;
+                content: '★★★';
+            }
+            &:after{
+                color: rgba($secondary, 0.3);
+                content: '★★';
+            }
+        }
+        &.rate4 {
+            &:before {
+                color: $secondary;
+                content: '★★★★';
+            }
+            &:after{
+                color: rgba($secondary, 0.3);
+                content: '★';
+            }
+        }
+        &.rate5 {
+            &:before {
+                color: $secondary;
+                content: '★★★★★';
+            }
+        }
+    }
+}

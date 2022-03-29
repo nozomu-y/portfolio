@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -8398,5 +8399,35 @@ footer .footer-copyright {
 img.portfolio {
   width: 100%;
   height: auto; }
+
+.rating .rate {
+  font-size: 1.25rem; }
+  .rating .rate.rate1:before {
+    color: #8d82c4;
+    content: '★'; }
+  .rating .rate.rate1:after {
+    color: rgba(141, 130, 196, 0.3);
+    content: '★★★★'; }
+  .rating .rate.rate2:before {
+    color: #8d82c4;
+    content: '★★'; }
+  .rating .rate.rate2:after {
+    color: rgba(141, 130, 196, 0.3);
+    content: '★★★'; }
+  .rating .rate.rate3:before {
+    color: #8d82c4;
+    content: '★★★'; }
+  .rating .rate.rate3:after {
+    color: rgba(141, 130, 196, 0.3);
+    content: '★★'; }
+  .rating .rate.rate4:before {
+    color: #8d82c4;
+    content: '★★★★'; }
+  .rating .rate.rate4:after {
+    color: rgba(141, 130, 196, 0.3);
+    content: '★'; }
+  .rating .rate.rate5:before {
+    color: #8d82c4;
+    content: '★★★★★'; }
 
 /*# sourceMappingURL=style.css.map */
