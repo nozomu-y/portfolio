@@ -6,8 +6,6 @@ yarn-debug.log*
 yarn-error.log*
 
 src/assets/scss/.sass-cache/
-src/assets/img/
-static/img/
 
 # Editor directories and files
 .idea
