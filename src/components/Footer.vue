@@ -12,7 +12,7 @@
         </div>
       </div> -->
     <div class="footer-copyright text-center py-3 bg-primary">
-      &copy; 2020 Nozomu
+      &copy; 2022 Nozomu
     </div>
   </footer>
 </template>
