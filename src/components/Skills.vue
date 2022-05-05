@@ -376,7 +376,7 @@
                       hash: '#portfolio_kleines_mypage'
                     }"
                     >会計システム</router-link
-                  >のデータベースに使用しました。
+                  >のデータベースに使用しています。
                 </p>
               </div>
             </div>
@@ -511,8 +511,7 @@
                   </tbody>
                 </table>
                 <p>
-                  大学で所属している合唱団の演奏会チラシを制作する際に使用しました。詳しくは
-                  <router-link
+                  大学で所属している合唱団の演奏会チラシを制作する際に使用しました。詳しくは<router-link
                     :to="{ name: 'Portfolio', hash: '#portfolio_2019_concert' }"
                     >こちら</router-link
                   >をご覧ください。
