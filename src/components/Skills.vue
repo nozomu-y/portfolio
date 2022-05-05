@@ -11,6 +11,64 @@
 
         <div class="row justify-content-center">
           <div class="col-auto text-center">
+            <div class="card mt-3">
+              <div class="card-body">
+                <!-- <h4 class="card-title text-center">Python</h4>
+                -->
+                <table
+                  class="table table-borderless table-sm"
+                  style="text-align: center;"
+                >
+                  <tbody>
+                    <tr>
+                      <td class="rating">
+                        <span class="rate rate1"></span>
+                      </td>
+                      <td style="vertical-align: bottom;" class="text-left">
+                        授業で習ったことがあるが、実装の経験はない
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="rating">
+                        <span class="rate rate2"></span>
+                      </td>
+                      <td style="vertical-align: bottom;" class="text-left">
+                        詳しい人と協力しながらであれば、実装を進められる
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="rating">
+                        <span class="rate rate3"></span>
+                      </td>
+                      <td style="vertical-align: bottom;" class="text-left">
+                        インターネットで調べながら、簡単なアプリを実装することができる
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="rating">
+                        <span class="rate rate4"></span>
+                      </td>
+                      <td style="vertical-align: bottom;" class="text-left">
+                        実践的なアプリ・ライブラリを実装できる
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="rating">
+                        <span class="rate rate5"></span>
+                      </td>
+                      <td style="vertical-align: bottom;" class="text-left">
+                        プログラムの仕様・システム側の実装について理解している
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-auto text-center">
             <h2 class="my-3">Languages</h2>
           </div>
         </div>
@@ -33,7 +91,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>4年</td>
+                      <td>5年</td>
                       <td class="rating">
                         <span class="rate rate4"></span>
                       </td>
@@ -64,7 +122,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>3年</td>
+                      <td>4年</td>
                       <td class="rating">
                         <span class="rate rate4"></span>
                       </td>
@@ -113,7 +171,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>2年</td>
+                      <td>3年</td>
                       <td class="rating">
                         <span class="rate rate3"></span>
                       </td>
@@ -149,7 +207,7 @@
                     <tr>
                       <td>1年</td>
                       <td class="rating">
-                        <span class="rate rate3"></span>
+                        <span class="rate rate4"></span>
                       </td>
                     </tr>
                   </tbody>
@@ -177,9 +235,9 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>3年</td>
+                      <td>5年</td>
                       <td class="rating">
-                        <span class="rate rate5"></span>
+                        <span class="rate rate4"></span>
                       </td>
                     </tr>
                   </tbody>
@@ -210,9 +268,9 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>3年</td>
+                      <td>5年</td>
                       <td class="rating">
-                        <span class="rate rate4"></span>
+                        <span class="rate rate3"></span>
                       </td>
                     </tr>
                   </tbody>
@@ -244,9 +302,9 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>3年</td>
+                      <td>4年</td>
                       <td class="rating">
-                        <span class="rate rate4"></span>
+                        <span class="rate rate3"></span>
                       </td>
                     </tr>
                   </tbody>
@@ -282,7 +340,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>4年</td>
+                      <td>5年</td>
                       <td class="rating">
                         <span class="rate rate4"></span>
                       </td>
@@ -301,6 +359,87 @@
                     nozomu-y/nylecnote
                   </a>
                 </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item col-md-6">
+            <div class="card mt-3">
+              <div class="card-body">
+                <h4 class="card-title text-center">Java</h4>
+                <table
+                  class="table table-borderless table-sm"
+                  style="text-align: center;"
+                >
+                  <thead>
+                    <tr>
+                      <th>経験年数</th>
+                      <th>スキル</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1年</td>
+                      <td class="rating">
+                        <span class="rate rate1"></span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item col-md-6">
+            <div class="card mt-3">
+              <div class="card-body">
+                <h4 class="card-title text-center">MATLAB</h4>
+                <table
+                  class="table table-borderless table-sm"
+                  style="text-align: center;"
+                >
+                  <thead>
+                    <tr>
+                      <th>経験年数</th>
+                      <th>スキル</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1年</td>
+                      <td class="rating">
+                        <span class="rate rate1"></span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item col-md-6">
+            <div class="card mt-3">
+              <div class="card-body">
+                <h4 class="card-title text-center">R</h4>
+                <table
+                  class="table table-borderless table-sm"
+                  style="text-align: center;"
+                >
+                  <thead>
+                    <tr>
+                      <th>経験年数</th>
+                      <th>スキル</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1年</td>
+                      <td class="rating">
+                        <span class="rate rate1"></span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
@@ -331,9 +470,9 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>3年</td>
+                      <td>4年</td>
                       <td class="rating">
-                        <span class="rate rate5"></span>
+                        <span class="rate rate3"></span>
                       </td>
                     </tr>
                   </tbody>
@@ -362,9 +501,9 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>3年</td>
+                      <td>4年</td>
                       <td class="rating">
-                        <span class="rate rate4"></span>
+                        <span class="rate rate3"></span>
                       </td>
                     </tr>
                   </tbody>
@@ -408,7 +547,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>1年</td>
+                      <td>2年</td>
                       <td class="rating">
                         <span class="rate rate4"></span>
                       </td>
@@ -444,9 +583,9 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>4年</td>
+                      <td>5年</td>
                       <td class="rating">
-                        <span class="rate rate5"></span>
+                        <span class="rate rate4"></span>
                       </td>
                     </tr>
                   </tbody>
