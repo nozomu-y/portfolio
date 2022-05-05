@@ -14,16 +14,23 @@
               <tbody>
                 <tr>
                   <td class="text-nowrap">名前</td>
-                  <td>Nozomu</td>
+                  <td>山崎希 (Nozomu Yamazaki)</td>
                 </tr>
                 <tr>
                   <td class="text-nowrap">所属</td>
-                  <td>東京工業大学 情報理工学院 情報工学系 学士3年</td>
+                  <td>東京工業大学 大学院 情報理工学院 情報工学系 知能情報コース 修士1年</td>
                 </tr>
+                <tr>
                 <tr>
                   <td class="text-nowrap">GitHub</td>
                   <td>
                     <a href="https://github.com/nozomu-y" target="_blank">nozomu-y</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-nowrap">AtCoder</td>
+                  <td>
+                    <a href="https://atcoder.jp/users/nyama39" target="_blank">nyama39</a>
                   </td>
                 </tr>
               </tbody>
