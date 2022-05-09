@@ -91,7 +91,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>5年</td>
+                      <td>4年</td>
                       <td class="rating">
                         <span class="rate rate4"></span>
                       </td>
@@ -171,7 +171,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>3年</td>
+                      <td>2年</td>
                       <td class="rating">
                         <span class="rate rate3"></span>
                       </td>
@@ -235,7 +235,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>5年</td>
+                      <td>4年</td>
                       <td class="rating">
                         <span class="rate rate4"></span>
                       </td>
@@ -268,7 +268,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>5年</td>
+                      <td>4年</td>
                       <td class="rating">
                         <span class="rate rate3"></span>
                       </td>
@@ -340,7 +340,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>5年</td>
+                      <td>4年</td>
                       <td class="rating">
                         <span class="rate rate4"></span>
                       </td>
@@ -470,7 +470,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>4年</td>
+                      <td>3年</td>
                       <td class="rating">
                         <span class="rate rate3"></span>
                       </td>
@@ -501,7 +501,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>4年</td>
+                      <td>3年</td>
                       <td class="rating">
                         <span class="rate rate3"></span>
                       </td>
@@ -583,7 +583,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>5年</td>
+                      <td>4年</td>
                       <td class="rating">
                         <span class="rate rate4"></span>
                       </td>
