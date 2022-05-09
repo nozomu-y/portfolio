@@ -14,6 +14,53 @@
           </div>
         </div>
         <div class="row mb-3 text-center">
+          <div class="col-md-6 mb-4" id="portfolio_eticket">
+            <img
+              src="@/assets/img/portfolio_eticket.png"
+              class="portfolio"
+              alt
+            />
+            <h3 class="mt-3">eTiCKet</h3>
+            <p>
+              所属している合唱団用に開発した電子チケットシステムです。
+              <br />
+              感染症対策のために、入場前に個人情報（氏名・連絡先）を収集することができます。
+            </p>
+            <p>
+              <a
+                href="https://github.com/nozomu-y/eTiCKet"
+                class="btn btn-github"
+                role="button"
+                target="_blank"
+              >
+                <i class="fab fa-github fa-lg mr-2"></i>View Code
+              </a>
+            </p>
+            <p>
+              デモアカウントのメールアドレスとパスワードは以下の通りです。
+              <br />
+              Username: Admin
+              <br />
+              Password: Admin123
+              <br />
+            </p>
+            <p>
+              <a
+                href="https://chorkleines.com/eTiCKet_demo"
+                class="btn btn-outline-light"
+                role="button"
+                target="_blank"
+              >
+                View Demo
+              </a>
+            </p>
+            <video
+              src="https://nozomu.dev/eTiCKet_demo.mp4"
+              controls
+              preload
+              width="320"
+            ></video>
+          </div>
           <div class="col-md-6 mb-4" id="portfolio_kleines_mypage">
             <img
               src="@/assets/img/portfolio_kleines_mypage.png"
@@ -45,45 +92,6 @@
             <p>
               <a
                 href="https://nozomu.dev/kleines-mypage"
-                class="btn btn-outline-light"
-                role="button"
-                target="_blank"
-              >
-                View Demo
-              </a>
-            </p>
-          </div>
-          <div class="col-md-6 mb-4" id="portfolio_eticket">
-            <img
-              src="@/assets/img/portfolio_eticket.png"
-              class="portfolio"
-              alt
-            />
-            <h3 class="mt-3">eTiCKet</h3>
-            <p>
-              所属している合唱団用に開発した電子チケットシステムです。
-            </p>
-            <p>
-              <a
-                href="https://github.com/nozomu-y/eTiCKet"
-                class="btn btn-github"
-                role="button"
-                target="_blank"
-              >
-                <i class="fab fa-github fa-lg mr-2"></i>View Code
-              </a>
-            </p>
-            <p>
-              デモアカウントのメールアドレスとパスワードは以下の通りです。
-              <br />
-              Username: Admin
-              <br />
-              Password: Admin123
-              <br />
-            </p>
-            <p>
-              <a
-                href="https://chorkleines.com/eTiCKet_demo"
                 class="btn btn-outline-light"
                 role="button"
                 target="_blank"
