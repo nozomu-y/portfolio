@@ -7,6 +7,11 @@
           <a href="https://github.com/nozomu-y" target="_blank">GitHub</a>
         </li>
         <li>
+          <a href="https://www.linkedin.com/in/nyama39/" target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
           <a href="https://atcoder.jp/users/nyama39" target="_blank">AtCoder</a>
         </li>
       </ul>
