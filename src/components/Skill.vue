@@ -20,7 +20,7 @@
         <div class="text-base-content/70 text-sm">{{ experience }}</div>
       </div>
       <div class="flex-auto">
-        <Rating :rating="rating"></Rating>
+        <Rating :rating="rating" :language="language"></Rating>
       </div>
     </div>
     <hr class="my-3" />
