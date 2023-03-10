@@ -8,7 +8,7 @@
           class="mask mask-squircle bg-base-content h-24 w-24 bg-opacity-10 p-px"
         >
           <img
-            class="aspect-square object-center mask mask-squircle bg-white"
+            class="aspect-square object-center mask mask-squircle bg-white p-2"
             :src="logo_url"
             :alt="logo_alt"
           />
