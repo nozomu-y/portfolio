@@ -56,6 +56,12 @@
                 </li>
                 <li>
                   <font-awesome-icon icon="fa-brands fa-github" />
+                  <a href="https://github.com/chorkleines/kleines-mypage" target="_blank">
+                    chorkleines/kleines-mypage
+                  </a>
+                </li>
+                <li>
+                  <font-awesome-icon icon="fa-brands fa-github" />
                   <a href="https://github.com/nozomu-y/eTiCKet" target="_blank">
                     nozomu-y/eTiCKet
                   </a>
