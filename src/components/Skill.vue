@@ -16,11 +16,15 @@
       </div>
 
       <div class="flex-auto">
-        <div class="text-lg font-extrabold">{{ language }}</div>
-        <div class="text-base-content/70 text-sm">{{ experience }}</div>
-      </div>
-      <div class="flex-auto">
-        <Rating :rating="rating" :language="language"></Rating>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 items-center">
+          <div>
+            <div class="text-lg font-extrabold">{{ language }}</div>
+            <div class="text-base-content/70 text-sm">{{ experience }}</div>
+          </div>
+          <div>
+            <Rating :rating="rating" :language="language"></Rating>
+          </div>
+        </div>
       </div>
     </div>
     <hr class="my-3" />

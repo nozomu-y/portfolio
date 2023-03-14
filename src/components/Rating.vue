@@ -3,7 +3,7 @@
     <input
       type="radio"
       :name="'rating-' + language"
-      class="rating-hidden"
+      class="rating-hidden hidden"
       :checked="rating == '0'"
     />
     <input
