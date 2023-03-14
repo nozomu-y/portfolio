@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="not-prose bg-base-100 rounded-box w-full max-w-lg shadow-xl p-4 pt-4 pb-4 mb-3"
-  >
+  <div class="not-prose bg-base-100 rounded-box w-full shadow-xl p-4 pt-4 pb-4">
     <div class="flex items-center gap-5 my-2">
       <div class="flex-none">
         <div
@@ -16,7 +14,7 @@
       </div>
 
       <div class="flex-auto">
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 items-center">
           <div>
             <div class="text-lg font-extrabold">{{ language }}</div>
             <div class="text-base-content/70 text-sm">{{ experience }}</div>
