@@ -2,13 +2,13 @@
   <div
     class="not-prose bg-base-100 rounded-box w-full max-w-lg shadow-xl p-4 pt-4 pb-4 mb-3"
   >
-    <div class="flex items-center gap-4 my-2">
+    <div class="flex items-center gap-5 my-2">
       <div class="flex-none">
         <div
-          class="mask mask-squircle bg-base-content h-24 w-24 bg-opacity-10 p-px"
+          class="bg-white h-24 w-24 bg-opacity-10 p-px flex items-center justify-center"
         >
           <img
-            class="aspect-square object-center mask mask-squircle bg-white p-2"
+            class="align-middle max-h-full max-w-full"
             :src="logo_url"
             :alt="logo_alt"
           />
