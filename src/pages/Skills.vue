@@ -17,10 +17,6 @@
                 More than 2 years of experience in implementing deep learning
                 models
               </li>
-              <li>
-                More than 4 years of experience in automating simple tasks on a
-                daily basis
-              </li>
             </ul>
           </div>
         </template>
@@ -301,7 +297,7 @@
 
       <Skill
         language="Java"
-        experience="1 year of experience"
+        experience="Less than 1 year of experience"
         rating="2"
         logo_url="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1920px-Java_programming_language_logo.svg.png"
         logo_alt="Java Logo"
@@ -323,7 +319,7 @@
 
       <Skill
         language="MATLAB"
-        experience="1 year of experience"
+        experience="Less than 1 year of experience"
         rating="2"
         logo_url="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"
         logo_alt="MATLAB Logo"
@@ -340,7 +336,7 @@
 
       <Skill
         language="R"
-        experience="1 year of experience"
+        experience="Less than 1 year of experience"
         rating="2"
         logo_url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/620px-R_logo.svg.png"
         logo_alt="R Logo"
