@@ -139,7 +139,7 @@
         <div
           class="not-prose bg-base-100 rounded-box w-full shadow-xl p-4 pt-4 pb-4"
         >
-          <div class="flex gap-4 my-2 items-center">
+          <div class="flex gap-4 my-2">
             <div class="avatar flex-none">
               <div
                 class="mask mask-square bg-base-content h-24 w-24 bg-opacity-10"
@@ -171,7 +171,7 @@
         <div
           class="not-prose bg-base-100 rounded-box w-full shadow-xl p-4 pt-4 pb-4"
         >
-          <div class="flex gap-4 my-2 items-center">
+          <div class="flex gap-4 my-2">
             <div class="avatar flex-none">
               <div
                 class="mask mask-square bg-base-content h-24 w-24 bg-opacity-10"
