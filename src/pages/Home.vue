@@ -17,7 +17,7 @@
       </ul>
       <h2>Employment</h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div class="grid grid-cols-1 max-w-xl gap-5">
         <div
           class="not-prose bg-base-100 rounded-box w-full shadow-xl p-4 pt-4 pb-4"
         >
@@ -177,7 +177,7 @@
       <!-- End of Employment -->
       <h2>Education</h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div class="grid grid-cols-1 max-w-xl gap-5">
         <div
           class="not-prose bg-base-100 rounded-box w-full shadow-xl p-4 pt-4 pb-4"
         >
