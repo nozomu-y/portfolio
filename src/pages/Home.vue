@@ -38,6 +38,48 @@
             <div class="flex-1">
               <div class="text-lg font-extrabold">LINE Corp</div>
               <div class="text-base-content/70 text-sm">
+                Software Engineer – Part-time
+              </div>
+              <div class="text-base-content/70 text-sm">
+                April 2023 – Present
+              </div>
+              <div class="text-base-content/70 text-sm">Tokyo, Japan</div>
+            </div>
+          </div>
+          <hr class="my-3" />
+          <div class="prose text-sm mb-3">
+            <strong>Responsibility:</strong>
+            <p>
+              Web application development and API development for LINE NEWS, as
+              well as backend system development.
+            </p>
+          </div>
+          <div>
+            <div class="badge badge-ghost mr-1">Java</div>
+            <div class="badge badge-ghost mr-1">Spring Boot</div>
+          </div>
+        </div>
+
+        <div
+          class="not-prose bg-base-100 rounded-box w-full shadow-xl p-4 pt-4 pb-4"
+        >
+          <div class="flex gap-4 my-2 items-center">
+            <div class="avatar flex-none">
+              <div
+                class="mask mask-squircle bg-base-content h-24 w-24 bg-opacity-10 p-px"
+              >
+                <img
+                  src="https://media.licdn.com/dms/image/C560BAQFHnDwDl15Pzg/company-logo_200_200/0/1624521003692?e=1683158400&v=beta&t=qeiHfqw-BqtlrQAiWLcL8_eu05jCWKP-KOuJoiBin74"
+                  width="94"
+                  height="94"
+                  alt="LINE Corp Logo"
+                  class="mask mask-squircle"
+                />
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="text-lg font-extrabold">LINE Corp</div>
+              <div class="text-base-content/70 text-sm">
                 Software Engineer – Internship
               </div>
               <div class="text-base-content/70 text-sm">
