@@ -1,9 +1,10 @@
 <template>
-  <div class="max-w-5xl mx-auto px-4">
+  <div class="max-w-5xl mx-auto px-2">
     <article class="prose max-w-none">
-      <h2>Languages</h2>
+      <h2 class="px-2">Languages</h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div class="masonry-grid grid grid-cols-1 md:grid-cols-2">
+        <div class="masonry-grid-sizer h-0 w-full"></div>
         <Skill
           language="Python"
           experience="4 years of experience"
@@ -375,10 +376,24 @@
 
 <script lang="ts">
 import Skill from "../components/Skill.vue";
+import Masonry from "masonry-layout";
 
 export default {
   components: {
     Skill,
+  },
+  mounted() {
+    this.masonry();
+  },
+
+  methods: {
+    masonry() {
+      new Masonry(".masonry-grid", {
+        itemSelector: ".masonry-grid-item",
+        columnWidth: ".masonry-grid-sizer",
+        percentPosition: true,
+      });
+    },
   },
 };
 </script>

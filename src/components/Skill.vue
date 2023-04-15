@@ -1,33 +1,35 @@
 <template>
-  <div class="not-prose bg-base-100 rounded-box w-full shadow-xl p-4 pt-4 pb-4">
-    <div class="flex items-center gap-5 my-2">
-      <div class="flex-none">
-        <div
-          class="bg-white h-24 w-24 bg-opacity-10 p-px flex items-center justify-center"
-        >
-          <img
-            class="align-middle max-h-full max-w-full"
-            :src="logo_url"
-            :alt="logo_alt"
-          />
+  <div class="masonry-grid-item p-2 w-full md:w-1/2">
+    <div class="not-prose bg-base-100 rounded-box shadow-xl p-4 pt-4 pb-4">
+      <div class="flex items-center gap-5 my-2">
+        <div class="flex-none">
+          <div
+            class="bg-white h-24 w-24 bg-opacity-10 p-px flex items-center justify-center"
+          >
+            <img
+              class="align-middle max-h-full max-w-full"
+              :src="logo_url"
+              :alt="logo_alt"
+            />
+          </div>
         </div>
-      </div>
 
-      <div class="flex-auto">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 items-center">
-          <div>
-            <div class="text-lg font-extrabold">{{ language }}</div>
-            <div class="text-base-content/70 text-sm">{{ experience }}</div>
-          </div>
-          <div>
-            <Rating :rating="rating" :language="language"></Rating>
+        <div class="flex-auto">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 items-center">
+            <div>
+              <div class="text-lg font-extrabold">{{ language }}</div>
+              <div class="text-base-content/70 text-sm">{{ experience }}</div>
+            </div>
+            <div>
+              <Rating :rating="rating" :language="language"></Rating>
+            </div>
           </div>
         </div>
       </div>
+      <hr class="my-3" />
+      <slot name="description"></slot>
+      <slot name="badges"></slot>
     </div>
-    <hr class="my-3" />
-    <slot name="description"></slot>
-    <slot name="badges"></slot>
   </div>
 </template>
 
