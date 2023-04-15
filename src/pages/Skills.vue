@@ -57,7 +57,10 @@
                 </li>
                 <li>
                   <font-awesome-icon icon="fa-brands fa-github" />
-                  <a href="https://github.com/chorkleines/kleines-mypage" target="_blank">
+                  <a
+                    href="https://github.com/chorkleines/kleines-mypage"
+                    target="_blank"
+                  >
                     chorkleines/kleines-mypage
                   </a>
                 </li>
@@ -72,6 +75,50 @@
           </template>
           <template v-slot:badges>
             <div class="badge badge-ghost mr-1">Laravel</div>
+          </template>
+        </Skill>
+
+        <Skill
+          language="Java"
+          experience="Less than 1 year of experience"
+          rating="3"
+          logo_url="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1920px-Java_programming_language_logo.svg.png"
+          logo_alt="Java Logo"
+        >
+          <template v-slot:description>
+            <div class="prose text-sm mb-3">
+              <ul class="list-disc list-inside ml-3">
+                <li>
+                  Less than 1 year of experience in developing API and backend
+                  system for LINE NEWS
+                </li>
+              </ul>
+            </div>
+          </template>
+          <template v-slot:badges>
+            <div class="badge badge-ghost mr-1">Spring Boot</div>
+          </template>
+        </Skill>
+
+        <Skill
+          language="Go"
+          experience="1 year of experience"
+          rating="3"
+          logo_url="https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg"
+          logo_alt="Go Logo"
+        >
+          <template v-slot:description>
+            <div class="prose text-sm mb-3">
+              <ul class="list-disc list-inside ml-3">
+                <li>
+                  More than 1 year of experience in developing API for a hotel
+                  check-in system
+                </li>
+              </ul>
+            </div>
+          </template>
+          <template v-slot:badges>
+            <div class="badge badge-ghost mr-1">Beego</div>
           </template>
         </Skill>
 
@@ -106,87 +153,6 @@
         </Skill>
 
         <Skill
-          language="Go"
-          experience="1 year of experience"
-          rating="3"
-          logo_url="https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg"
-          logo_alt="Go Logo"
-        >
-          <template v-slot:description>
-            <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
-                <li>
-                  More than 1 year of experience in developing API for a hotel
-                  check-in system
-                </li>
-              </ul>
-            </div>
-          </template>
-          <template v-slot:badges>
-            <div class="badge badge-ghost mr-1">Beego</div>
-          </template>
-        </Skill>
-
-        <Skill
-          language="HTML"
-          experience="4 years of experience"
-          rating="5"
-          logo_url="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg"
-          logo_alt="HTML Logo"
-        >
-          <template v-slot:description>
-            <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
-                <li>
-                  More than 4 years of experience in developing a website for
-                  the uniersity choir
-                </li>
-              </ul>
-              <ul class="mt-2 ml-3">
-                <li>
-                  <font-awesome-icon icon="fa-solid fa-link" />
-                  <a href="https://nozomu.dev/chorkleines" target="_blank">
-                    Chor Kleines Website Archive
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </template>
-          <template v-slot:badges></template>
-        </Skill>
-
-        <Skill
-          language="CSS"
-          experience="4 years of experience"
-          rating="4"
-          logo_url="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg"
-          logo_alt="CSS Logo"
-        >
-          <template v-slot:description>
-            <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
-                <li>
-                  More than 4 years of experience in developing a website for
-                  the uniersity choir
-                </li>
-              </ul>
-              <ul class="mt-2 ml-3">
-                <li>
-                  <font-awesome-icon icon="fa-solid fa-link" />
-                  <a href="https://nozomu.dev/chorkleines" target="_blank">
-                    Chor Kleines Website Archive
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </template>
-          <template v-slot:badges>
-            <div class="badge badge-ghost mr-1">Bootstrap</div>
-            <div class="badge badge-ghost mr-1">Tailwind</div>
-          </template>
-        </Skill>
-
-        <Skill
           language="JavaScript"
           experience="4 years of experience"
           rating="4"
@@ -198,7 +164,7 @@
               <ul class="list-disc list-inside ml-3">
                 <li>
                   More than 4 years of experience in developing a website for
-                  the uniersity choir
+                  the university choir
                 </li>
                 <li>1 year of experience in developing this website</li>
                 <li>
@@ -282,6 +248,66 @@
         </Skill>
 
         <Skill
+          language="HTML"
+          experience="4 years of experience"
+          rating="5"
+          logo_url="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg"
+          logo_alt="HTML Logo"
+        >
+          <template v-slot:description>
+            <div class="prose text-sm mb-3">
+              <ul class="list-disc list-inside ml-3">
+                <li>
+                  More than 4 years of experience in developing a website for
+                  the university choir
+                </li>
+              </ul>
+              <ul class="mt-2 ml-3">
+                <li>
+                  <font-awesome-icon icon="fa-solid fa-link" />
+                  <a href="https://nozomu.dev/chorkleines" target="_blank">
+                    Chor Kleines Website Archive
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </template>
+          <template v-slot:badges></template>
+        </Skill>
+
+        <Skill
+          language="CSS"
+          experience="4 years of experience"
+          rating="4"
+          logo_url="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg"
+          logo_alt="CSS Logo"
+        >
+          <template v-slot:description>
+            <div class="prose text-sm mb-3">
+              <ul class="list-disc list-inside ml-3">
+                <li>
+                  More than 4 years of experience in developing a website for
+                  the university choir
+                </li>
+              </ul>
+              <ul class="mt-2 ml-3">
+                <li>
+                  <font-awesome-icon icon="fa-solid fa-link" />
+                  <a href="https://nozomu.dev/chorkleines" target="_blank">
+                    Chor Kleines Website Archive
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </template>
+          <template v-slot:badges>
+            <div class="badge badge-ghost mr-1">Bootstrap</div>
+            <div class="badge badge-ghost mr-1">Tailwind</div>
+          </template>
+        </Skill>
+
+        <!--
+        <Skill
           language="LaTeX"
           experience="4 years of experience"
           rating="5"
@@ -313,29 +339,9 @@
             <div class="badge badge-ghost mr-1">tcolobox</div>
           </template>
         </Skill>
+        -->
 
-        <Skill
-          language="Java"
-          experience="Less than 1 year of experience"
-          rating="2"
-          logo_url="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1920px-Java_programming_language_logo.svg.png"
-          logo_alt="Java Logo"
-        >
-          <template v-slot:description>
-            <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
-                <li>
-                  Less than 1 year of experience in developing API and backend
-                  system for LINE NEWS
-                </li>
-              </ul>
-            </div>
-          </template>
-          <template v-slot:badges>
-            <div class="badge badge-ghost mr-1">Spring Boot</div>
-          </template>
-        </Skill>
-
+        <!--
         <Skill
           language="MATLAB"
           experience="Less than 1 year of experience"
@@ -352,7 +358,9 @@
           </template>
           <template v-slot:badges></template>
         </Skill>
+        -->
 
+        <!--
         <Skill
           language="R"
           experience="Less than 1 year of experience"
@@ -369,6 +377,7 @@
           </template>
           <template v-slot:badges></template>
         </Skill>
+        -->
       </div>
     </article>
   </div>
