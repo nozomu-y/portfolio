@@ -1,7 +1,8 @@
 <template>
   <div class="max-w-5xl mx-auto px-2">
     <article class="prose max-w-none">
-      <h2 class="px-2">Languages</h2>
+      <h1 class="px-2 text-center">Skills</h1>
+      <h2 class="px-2 text-center">Languages</h2>
 
       <div class="masonry-grid grid grid-cols-1 md:grid-cols-2">
         <div class="masonry-grid-sizer h-0 w-full"></div>

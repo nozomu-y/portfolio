@@ -1,23 +1,23 @@
 <template>
   <div class="max-w-5xl mx-auto px-4">
     <article class="prose max-w-none">
-      <h2>Links</h2>
-      <ul>
-        <li>
-          <a href="https://github.com/nozomu-y" target="_blank">GitHub</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/nyama39/" target="_blank"
-            >LinkedIn</a
-          >
-        </li>
-        <li>
-          <a href="https://atcoder.jp/users/nyama39" target="_blank">AtCoder</a>
-        </li>
-      </ul>
-      <h2>Employment</h2>
+      <h1 class="text-center">nozomu.dev</h1>
+      <h2 class="text-center">Links</h2>
+      <div class="flex justify-center gap-4">
+        <a href="https://github.com/nozomu-y" target="_blank"
+          ><font-awesome-icon :icon="['fab', 'github']" class="text-3xl"
+        /></a>
+        <a href="https://www.linkedin.com/in/nyama39/" target="_blank">
+          <font-awesome-icon :icon="['fab', 'linkedin']" class="text-3xl" />
+        </a>
+        <a href="https://atcoder.jp/users/nyama39" target="_blank">
+          <font-awesome-icon :icon="['fas', 'link']" class="text-3xl" />
+        </a>
+      </div>
 
-      <div class="grid grid-cols-1 max-w-xl gap-5">
+      <h2 class="text-center">Employment</h2>
+
+      <div class="flex flex-col gap-5 mx-auto max-w-2xl">
         <div
           class="not-prose bg-base-100 rounded-box w-full shadow-xl p-4 pt-4 pb-4"
         >
@@ -175,9 +175,10 @@
         </div>
       </div>
       <!-- End of Employment -->
-      <h2>Education</h2>
 
-      <div class="grid grid-cols-1 max-w-xl gap-5">
+      <h2 class="text-center">Education</h2>
+
+      <div class="flex flex-col gap-5 mx-auto max-w-2xl">
         <div
           class="not-prose bg-base-100 rounded-box w-full shadow-xl p-4 pt-4 pb-4"
         >
