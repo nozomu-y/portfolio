@@ -4,7 +4,7 @@
   <div class="navbar bg-base-300 shadow mb-8">
     <div class="flex-1">
       <router-link to="/" class="btn btn-ghost normal-case text-xl"
-        >Nozomu's Portfolio</router-link
+        >nozomu.dev</router-link
       >
     </div>
     <div class="hidden md:block flex-none">
@@ -43,7 +43,7 @@
 
   <footer class="footer footer-center p-4 bg-base-300 text-base-content mt-10">
     <div>
-      <p>Copyright © 2023 - Nozomu Yamazaki</p>
+      <p>Copyright © 2023 - nozomu</p>
     </div>
   </footer>
 </template>
