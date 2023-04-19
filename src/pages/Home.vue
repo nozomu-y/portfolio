@@ -5,13 +5,23 @@
       <h2 class="text-center">Links</h2>
       <div class="flex justify-center gap-4">
         <a href="https://github.com/nozomu-y" target="_blank"
-          ><font-awesome-icon :icon="['fab', 'github']" class="text-3xl"
+          ><font-awesome-icon
+            :icon="['fab', 'github']"
+            class="text-3xl"
+            style="color: #171515"
         /></a>
-        <a href="https://www.linkedin.com/in/nyama39/" target="_blank">
+        <a href="https://zenn.dev/nyama39" target="_blank">
+          <ZennIcon size="30px" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/nyama39/"
+          target="_blank"
+          style="color: #0077b5"
+        >
           <font-awesome-icon :icon="['fab', 'linkedin']" class="text-3xl" />
         </a>
         <a href="https://atcoder.jp/users/nyama39" target="_blank">
-          <font-awesome-icon :icon="['fas', 'link']" class="text-3xl" />
+          <AtCoderIcon size="30px" />
         </a>
       </div>
 
@@ -247,3 +257,15 @@
     </article>
   </div>
 </template>
+
+<script lang="ts">
+import ZennIcon from "../components/icons/ZennIcon.vue";
+import AtCoderIcon from "../components/icons/AtCoderIcon.vue";
+
+export default {
+  components: {
+    ZennIcon,
+    AtCoderIcon,
+  },
+};
+</script>
