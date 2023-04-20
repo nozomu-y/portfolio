@@ -106,7 +106,7 @@
               well as backend system development.
             </p>
             <strong>Achievement:</strong>
-            <ul class="list-disc list-inside">
+            <ul class="list-disc list-outside ml-5">
               <li>
                 Constructed an automated infrastructure for load testing and
                 scenario generation.
@@ -169,7 +169,7 @@
               verification.
             </p>
             <strong>Achievement:</strong>
-            <ul class="list-disc list-inside">
+            <ul class="list-disc list-outside ml-5">
               <li>
                 Collaborated with the backend team and improved the UI/UX of the
                 Cookpad iOS app.

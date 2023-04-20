@@ -15,7 +15,7 @@
         >
           <template v-slot:description>
             <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
+              <ul class="list-disc list-outside ml-5">
                 <li>
                   More than 2 years of experience in implementing deep learning
                   models
@@ -39,7 +39,7 @@
         >
           <template v-slot:description>
             <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
+              <ul class="list-disc list-outside ml-5">
                 <li>
                   More than 4 years of experience in my personal project of
                   accounting system and electronic ticketing system for the
@@ -88,7 +88,7 @@
         >
           <template v-slot:description>
             <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
+              <ul class="list-disc list-outside ml-5">
                 <li>
                   Less than 1 year of experience in developing API and backend
                   system for LINE NEWS
@@ -110,7 +110,7 @@
         >
           <template v-slot:description>
             <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
+              <ul class="list-disc list-outside ml-5">
                 <li>
                   More than 1 year of experience in developing API for a hotel
                   check-in system
@@ -132,7 +132,7 @@
         >
           <template v-slot:description>
             <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
+              <ul class="list-disc list-outside ml-5">
                 <li>
                   More than 2 years of experience in competitive programming
                 </li>
@@ -162,7 +162,7 @@
         >
           <template v-slot:description>
             <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
+              <ul class="list-disc list-outside ml-5">
                 <li>
                   More than 4 years of experience in developing a website for
                   the university choir
@@ -212,7 +212,7 @@
         >
           <template v-slot:description>
             <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
+              <ul class="list-disc list-outside ml-5">
                 <li>
                   Less than 1 year of experience in developing this website
                 </li>
@@ -257,7 +257,7 @@
         >
           <template v-slot:description>
             <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
+              <ul class="list-disc list-outside ml-5">
                 <li>
                   More than 4 years of experience in developing a website for
                   the university choir
@@ -285,7 +285,7 @@
         >
           <template v-slot:description>
             <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
+              <ul class="list-disc list-outside ml-5">
                 <li>
                   More than 4 years of experience in developing a website for
                   the university choir
@@ -317,7 +317,7 @@
         >
           <template v-slot:description>
             <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
+              <ul class="list-disc list-outside ml-5">
                 <li>
                   More than 4 years of experience in taking notes for lectures
                   and creating macros and style sheets
@@ -352,7 +352,7 @@
         >
           <template v-slot:description>
             <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
+              <ul class="list-disc list-outside ml-5">
                 <li>Less than 1 year of experience in solving assignments</li>
               </ul>
             </div>
@@ -371,7 +371,7 @@
         >
           <template v-slot:description>
             <div class="prose text-sm mb-3">
-              <ul class="list-disc list-inside ml-3">
+              <ul class="list-disc list-outside ml-5">
                 <li>Less than 1 year of experience in solving assignments</li>
               </ul>
             </div>
