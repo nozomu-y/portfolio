@@ -3,7 +3,9 @@
 <template>
   <div class="navbar bg-base-300 shadow mb-8">
     <div class="flex-1">
-      <router-link to="/" class="btn btn-ghost normal-case text-xl"
+      <router-link
+        to="/"
+        class="btn btn-ghost normal-case text-xl hover:bg-transparent"
         >nozomu.dev</router-link
       >
     </div>
@@ -47,3 +49,16 @@
     </div>
   </footer>
 </template>
+
+<script lang="ts">
+export default {
+  watch: {
+    $route(_to, _from) {
+      const element = document.activeElement as HTMLElement;
+      if (element) {
+        element?.blur();
+      }
+    },
+  },
+};
+</script>
