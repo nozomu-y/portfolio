@@ -18,6 +18,9 @@
         <li>
           <router-link to="/skills">Skills</router-link>
         </li>
+        <li>
+          <router-link to="/articles">Articles</router-link>
+        </li>
       </ul>
     </div>
     <div class="flex-none md:hidden">
@@ -35,6 +38,9 @@
           <!-- </li> -->
           <li>
             <router-link to="/skills">Skills</router-link>
+          </li>
+          <li>
+            <router-link to="/articles">Articles</router-link>
           </li>
         </ul>
       </div>
