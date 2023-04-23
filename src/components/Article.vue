@@ -22,12 +22,7 @@
 </template>
 
 <script lang="ts">
-import Rating from "./Rating.vue";
-
 export default {
-  components: {
-    Rating,
-  },
   props: ["title", "date", "article_link", "image_link"],
 };
 </script>
