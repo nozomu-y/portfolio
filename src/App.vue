@@ -11,12 +11,14 @@
     </div>
     <div class="hidden md:block flex-none">
       <ul class="menu menu-horizontal px-1">
-        <li><router-link to="/">Home</router-link></li>
-        <!-- <li> -->
-        <!--   <router-link to="/portfolio">Portfolio</router-link> -->
-        <!-- </li> -->
+        <li>
+          <router-link to="/">Home</router-link>
+        </li>
         <li>
           <router-link to="/skills">Skills</router-link>
+        </li>
+        <li>
+          <router-link to="/works">Works</router-link>
         </li>
         <li>
           <router-link to="/articles">Articles</router-link>
@@ -32,12 +34,14 @@
           tabindex="0"
           class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
         >
-          <li><router-link to="/">Home</router-link></li>
-          <!-- <li> -->
-          <!--   <router-link to="/portfolio">Portfolio</router-link> -->
-          <!-- </li> -->
+          <li>
+            <router-link to="/">Home</router-link>
+          </li>
           <li>
             <router-link to="/skills">Skills</router-link>
+          </li>
+          <li>
+            <router-link to="/works">Works</router-link>
           </li>
           <li>
             <router-link to="/articles">Articles</router-link>
