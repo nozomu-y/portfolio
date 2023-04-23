@@ -10,7 +10,7 @@
             style="aspect-ratio: 1200/630"
           />
         </figure>
-        <div class="card-body p-5 justify-between gap-0">
+        <div class="card-body p-4 justify-between gap-0">
           <div class="font-bold">
             {{ title }}
           </div>
