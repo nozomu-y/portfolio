@@ -252,6 +252,34 @@
             </div>
           </div>
         </div>
+        <div
+          class="not-prose bg-base-100 rounded-box w-full shadow-xl p-4 pt-4 pb-4"
+        >
+          <div class="flex gap-4 my-2">
+            <div class="avatar flex-none">
+              <div
+                class="mask mask-square bg-base-content h-24 w-24 bg-opacity-10"
+              >
+                <img
+                  src="https://kaiseigakuen.jp/wp/wp-content/themes/twentyten_kaisei/images/about/pic_flag.jpg"
+                  width="94"
+                  height="94"
+                  alt="Kaisei Academy Logo"
+                  class="mask mask-square"
+                />
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="text-lg font-extrabold">
+                                Kaisei Academy High School
+              </div>
+              <div class="text-base-content/70 text-sm">
+                April 2014 – March 2017
+              </div>
+              <div class="text-base-content/70 text-sm">Tokyo, Japan</div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- End of Education -->
     </article>
