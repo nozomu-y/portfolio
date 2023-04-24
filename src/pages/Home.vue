@@ -2,27 +2,45 @@
   <div class="max-w-5xl mx-auto px-4">
     <article class="prose max-w-none">
       <h1 class="text-center">nozomu.dev</h1>
-      <h2 class="text-center">Links</h2>
-      <div class="flex justify-center gap-4">
-        <a href="https://github.com/nozomu-y" target="_blank"
-          ><font-awesome-icon
-            :icon="['fab', 'github']"
-            class="text-3xl"
-            style="color: #171515"
-        /></a>
-        <a href="https://zenn.dev/nyama39" target="_blank">
-          <ZennIcon size="30px" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/nyama39/"
-          target="_blank"
-          style="color: #0077b5"
-        >
-          <font-awesome-icon :icon="['fab', 'linkedin']" class="text-3xl" />
-        </a>
-        <a href="https://atcoder.jp/users/nyama39" target="_blank">
-          <AtCoderIcon size="30px" />
-        </a>
+
+      <div class="flex gap-6 my-2 justify-center items-center">
+        <div class="avatar flex-none">
+          <div
+            class="mask mask-squircle bg-base-content h-32 w-32 bg-opacity-10 p-px"
+          >
+            <img
+              src="images/profile.jpeg"
+              width="128"
+              height="128"
+              alt="Profile Image"
+              class="mask mask-squircle m-0"
+            />
+          </div>
+        </div>
+        <div class="flex-none">
+          <div class="text-2xl font-extrabold">Nozomu Yamazaki</div>
+          <div class="flex justify-start gap-4 mt-4">
+            <a href="https://github.com/nozomu-y" target="_blank"
+              ><font-awesome-icon
+                :icon="['fab', 'github']"
+                class="text-3xl"
+                style="color: #171515"
+            /></a>
+            <a href="https://zenn.dev/nyama39" target="_blank">
+              <ZennIcon size="30px" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nyama39/"
+              target="_blank"
+              style="color: #0077b5"
+            >
+              <font-awesome-icon :icon="['fab', 'linkedin']" class="text-3xl" />
+            </a>
+            <a href="https://atcoder.jp/users/nyama39" target="_blank">
+              <AtCoderIcon size="30px" />
+            </a>
+          </div>
+        </div>
       </div>
 
       <h2 class="text-center">Employment</h2>
@@ -271,7 +289,7 @@
             </div>
             <div class="flex-1">
               <div class="text-lg font-extrabold">
-                                Kaisei Academy High School
+                Kaisei Academy High School
               </div>
               <div class="text-base-content/70 text-sm">
                 April 2014 – March 2017
