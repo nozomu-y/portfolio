@@ -3,7 +3,7 @@
     <article class="prose max-w-none">
       <h1 class="text-center">nozomu.dev</h1>
 
-      <div class="flex gap-6 my-2 justify-center items-center">
+      <div class="flex max-md:flex-col gap-6 my-2 justify-center items-center">
         <div class="avatar flex-none">
           <div
             class="mask mask-squircle bg-base-content h-32 w-32 bg-opacity-10 p-px"
@@ -19,7 +19,7 @@
         </div>
         <div class="flex-none">
           <div class="text-2xl font-extrabold">Nozomu Yamazaki</div>
-          <div class="flex justify-start gap-4 mt-4">
+          <div class="flex justify-center md:justify-start gap-4 mt-4">
             <a href="https://github.com/nozomu-y" target="_blank"
               ><font-awesome-icon
                 :icon="['fab', 'github']"
