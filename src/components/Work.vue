@@ -3,7 +3,7 @@
     <div class="card bg-base-100 shadow-xl h-full">
       <figure class="m-0">
         <img
-          :src="image"
+          :src="image_link"
           :alt="image_alt"
           class="object-cover"
           style="aspect-ratio: 1200/630"
@@ -37,20 +37,7 @@
 </template>
 
 <script lang="ts">
-import { ref } from "vue";
-
 export default {
   props: ["title", "demo_link", "repo_link", "image_link", "image_alt"],
-  setup(props) {
-    const image = ref();
-    if (props.image_link.includes("http")) {
-      image.value = props.image_link;
-    } else {
-      image.value = new URL("/src/assets/" + props.image_link, import.meta.url);
-    }
-    return {
-      image,
-    };
-  },
 };
 </script>

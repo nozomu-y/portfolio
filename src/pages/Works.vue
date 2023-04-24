@@ -8,7 +8,7 @@
           title="eTiCKet"
           demo_link="https://chorkleines.com/eTiCKet_demo"
           repo_link="https://github.com/nozomu-y/eTiCKet"
-          image_link="eTiCKet_thumbnail.png"
+          image_link="images/eTiCKet_thumbnail.png"
           image_alt="eTiCKet thumbnail"
         >
           <template v-slot:description>
@@ -38,7 +38,7 @@
           title="Kleines Mypage"
           demo_link="https://nozomu.dev/kleines-mypage"
           repo_link="https://github.com/nozomu-y/kleines-mypage"
-          image_link="kleines_mypage_thumbnail.png"
+          image_link="images/kleines_mypage_thumbnail.png"
           image_alt="Kleines Mypage thumbnail"
         >
           <template v-slot:description>
@@ -65,7 +65,7 @@
           title="Chor Kleines Website"
           demo_link="https://nozomu.dev/chorkleines"
           repo_link=""
-          image_link="chorkleines_thumbnail.jpg"
+          image_link="images/chorkleines_thumbnail.jpg"
           image_alt="Chor Kleines Website thumbnail"
         >
           <template v-slot:description>
@@ -75,6 +75,24 @@
           </template>
           <template v-slot:badges>
             <div class="badge badge-ghost mr-1">Bootstrap</div>
+          </template>
+        </Work>
+
+        <Work
+          title="Portfolio Website"
+          demo_link=""
+          repo_link="https://github.com/nozomu-y/portfolio"
+          image_link="images/og_image.jpg"
+          image_alt="Portfolio Website thumbnail"
+        >
+          <template v-slot:description>
+            <p class="prose text-sm mb-2">This website.</p>
+          </template>
+          <template v-slot:badges>
+            <div class="badge badge-ghost mr-1">Vue.js</div>
+            <div class="badge badge-ghost mr-1">Tailwind CSS</div>
+            <div class="badge badge-ghost mr-1">daisyUI</div>
+            <div class="badge badge-ghost mr-1">TypeScript</div>
           </template>
         </Work>
 
