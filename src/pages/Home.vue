@@ -9,7 +9,7 @@
             class="mask mask-squircle bg-base-content h-32 w-32 bg-opacity-10 p-px"
           >
             <img
-              src="images/profile.jpeg"
+              src="/images/profile.jpeg"
               width="128"
               height="128"
               alt="Profile Image"
