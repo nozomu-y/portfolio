@@ -50,17 +50,19 @@
           class="not-prose bg-base-100 rounded-box w-full shadow-xl p-4 pt-4 pb-4"
         >
           <div class="flex gap-4 my-2 items-center">
-            <div class="avatar flex-none">
+            <div class="flex-none">
               <div
-                class="mask mask-squircle bg-base-content h-24 w-24 bg-opacity-10 p-px"
+                class="mask mask-squircle bg-base-content bg-opacity-10 h-24 w-24 p-px"
               >
-                <img
-                  src="https://media.licdn.com/dms/image/C560BAQFHnDwDl15Pzg/company-logo_200_200/0/1624521003692?e=1683158400&v=beta&t=qeiHfqw-BqtlrQAiWLcL8_eu05jCWKP-KOuJoiBin74"
-                  width="94"
-                  height="94"
-                  alt="LINE Corp Logo"
-                  class="mask mask-squircle"
-                />
+                <div
+                  class="mask mask-squircle bg-white flex items-center justify-center h-full w-full"
+                >
+                  <img
+                    class="align-middle max-h-full max-w-full px-3"
+                    src="https://upload.wikimedia.org/wikipedia/commons/e/e0/LINE_Corporation_Logo.png"
+                    alt="LINE Corp Logo"
+                  />
+                </div>
               </div>
             </div>
             <div class="flex-1">
@@ -92,17 +94,19 @@
           class="not-prose bg-base-100 rounded-box w-full shadow-xl p-4 pt-4 pb-4"
         >
           <div class="flex gap-4 my-2 items-center">
-            <div class="avatar flex-none">
+            <div class="flex-none">
               <div
-                class="mask mask-squircle bg-base-content h-24 w-24 bg-opacity-10 p-px"
+                class="mask mask-squircle bg-base-content bg-opacity-10 h-24 w-24 p-px"
               >
-                <img
-                  src="https://media.licdn.com/dms/image/C560BAQFHnDwDl15Pzg/company-logo_200_200/0/1624521003692?e=1683158400&v=beta&t=qeiHfqw-BqtlrQAiWLcL8_eu05jCWKP-KOuJoiBin74"
-                  width="94"
-                  height="94"
-                  alt="LINE Corp Logo"
-                  class="mask mask-squircle"
-                />
+                <div
+                  class="mask mask-squircle bg-white flex items-center justify-center h-full w-full"
+                >
+                  <img
+                    class="align-middle max-h-full max-w-full px-3"
+                    src="https://upload.wikimedia.org/wikipedia/commons/e/e0/LINE_Corporation_Logo.png"
+                    alt="LINE Corp Logo"
+                  />
+                </div>
               </div>
             </div>
             <div class="flex-1">
@@ -155,17 +159,19 @@
           class="not-prose bg-base-100 rounded-box w-full shadow-xl p-4 pt-4 pb-4"
         >
           <div class="flex gap-4 my-2 items-center">
-            <div class="avatar flex-none">
+            <div class="flex-none">
               <div
-                class="mask mask-squircle bg-base-content h-24 w-24 bg-opacity-10 p-px"
+                class="mask mask-squircle bg-base-content bg-opacity-10 h-24 w-24 p-px"
               >
-                <img
-                  src="https://media.licdn.com/dms/image/C4E0BAQFL4lU6JYVm0A/company-logo_200_200/0/1532071807421?e=1683158400&v=beta&t=64iE9RODq89eRFoG3vXd8wJFrQeKSHNzjt4jl1G6M2g"
-                  width="94"
-                  height="94"
-                  alt="Cookpad Logo"
-                  class="mask mask-squircle"
-                />
+                <div
+                  class="mask mask-squircle bg-white flex items-center justify-center h-full w-full"
+                >
+                  <img
+                    class="align-middle max-h-full max-w-full scale-150"
+                    src="https://info.cookpad.com/assets/images/media-kit/img_cookpad_logo.png"
+                    alt="Cookpad Logo"
+                  />
+                </div>
               </div>
             </div>
             <div class="flex-1">
@@ -216,7 +222,7 @@
                 class="mask mask-square bg-base-content h-24 w-24 bg-opacity-10"
               >
                 <img
-                  src="https://media.licdn.com/dms/image/C4E0BAQEGCJG4ukfFyA/company-logo_200_200/0/1519892728945?e=1683158400&v=beta&t=C8E1K-0B4AFnSY6whqjoOCvUSd0r0Srzrcr2lacnFUQ"
+                  src="https://www.titech.ac.jp/public-relations/img/img-seal-202109.jpg"
                   width="94"
                   height="94"
                   alt="TokyoTech Logo"
@@ -248,7 +254,7 @@
                 class="mask mask-square bg-base-content h-24 w-24 bg-opacity-10"
               >
                 <img
-                  src="https://media.licdn.com/dms/image/C4E0BAQEGCJG4ukfFyA/company-logo_200_200/0/1519892728945?e=1683158400&v=beta&t=C8E1K-0B4AFnSY6whqjoOCvUSd0r0Srzrcr2lacnFUQ"
+                  src="https://www.titech.ac.jp/public-relations/img/img-seal-202109.jpg"
                   width="94"
                   height="94"
                   alt="TokyoTech Logo"
