@@ -71,7 +71,7 @@
                 Software Engineer – Part-time
               </div>
               <div class="text-base-content/70 text-sm">
-                April 2023 – Present
+                April 2023 – September 2023
               </div>
               <div class="text-base-content/70 text-sm">Tokyo, Japan</div>
             </div>
