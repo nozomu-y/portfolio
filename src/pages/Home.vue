@@ -59,7 +59,7 @@
                 >
                   <img
                     class="align-middle max-h-full max-w-full px-3"
-                    src="https://upload.wikimedia.org/wikipedia/commons/e/e0/LINE_Corporation_Logo.png"
+                    src="/images/LINE_Corporation_Logo.png"
                     alt="LINE Corp Logo"
                   />
                 </div>
@@ -103,7 +103,7 @@
                 >
                   <img
                     class="align-middle max-h-full max-w-full px-3"
-                    src="https://upload.wikimedia.org/wikipedia/commons/e/e0/LINE_Corporation_Logo.png"
+                    src="/images/LINE_Corporation_Logo.png"
                     alt="LINE Corp Logo"
                   />
                 </div>
@@ -168,7 +168,7 @@
                 >
                   <img
                     class="align-middle max-h-full max-w-full scale-150"
-                    src="https://info.cookpad.com/assets/images/media-kit/img_cookpad_logo.png"
+                    src="/images/Cookpad_Logo.png"
                     alt="Cookpad Logo"
                   />
                 </div>
@@ -222,7 +222,7 @@
                 class="mask mask-square bg-base-content h-24 w-24 bg-opacity-10"
               >
                 <img
-                  src="https://www.titech.ac.jp/public-relations/img/img-seal-202109.jpg"
+                  src="/images/TokyoTech_Logo.jpg"
                   width="94"
                   height="94"
                   alt="TokyoTech Logo"
@@ -254,7 +254,7 @@
                 class="mask mask-square bg-base-content h-24 w-24 bg-opacity-10"
               >
                 <img
-                  src="https://www.titech.ac.jp/public-relations/img/img-seal-202109.jpg"
+                  src="/images/TokyoTech_Logo.jpg"
                   width="94"
                   height="94"
                   alt="TokyoTech Logo"
@@ -285,7 +285,7 @@
                 class="mask mask-square bg-base-content h-24 w-24 bg-opacity-10"
               >
                 <img
-                  src="https://kaiseigakuen.jp/wp/wp-content/themes/twentyten_kaisei/images/about/pic_flag.jpg"
+                  src="/images/Kaisei_Logo.jpg"
                   width="94"
                   height="94"
                   alt="Kaisei Academy Logo"
