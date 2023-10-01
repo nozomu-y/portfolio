@@ -28,6 +28,11 @@
               <font-awesome-icon icon="fa-solid fa-link" /> Demo
             </a>
           </div>
+          <div v-if="prod_link" class="prose text-sm">
+            <a :href="prod_link" target="_blank">
+              <font-awesome-icon icon="fa-solid fa-link" /> Website
+            </a>
+          </div>
           <hr class="my-3" />
           <slot name="badges" class="not-prose"></slot>
         </div>
@@ -38,6 +43,6 @@
 
 <script lang="ts">
 export default {
-  props: ["title", "demo_link", "repo_link", "image_link", "image_alt"],
+  props: ["title", "demo_link", "repo_link", "image_link", "image_alt", "prod_link"],
 };
 </script>

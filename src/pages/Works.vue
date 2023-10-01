@@ -5,6 +5,27 @@
 
       <div class="columns-1 md:columns-2">
         <Work
+          title="Phonetic Translator"
+          prod_link="https://nozomu.dev/phonetic-translator/"
+          image_link="images/phonetic_translator_thumbnail.png"
+          image_alt="Phonetic Translator thumbnail"
+        >
+          <template v-slot:description>
+            <p class="prose text-sm mb-2">
+              Phonetic Translator is a software that translates lyrics and
+              provides phonetic notation.
+            </p>
+          </template>
+          <template v-slot:badges>
+            <div class="badge badge-ghost mr-1">Laravel</div>
+            <div class="badge badge-ghost mr-1">Vue.js</div>
+            <div class="badge badge-ghost mr-1">PHP</div>
+            <div class="badge badge-ghost mr-1">JavaScript</div>
+            <div class="badge badge-ghost mr-1">MySQL</div>
+          </template>
+        </Work>
+
+        <Work
           title="eTiCKet"
           demo_link="https://chorkleines.com/eTiCKet_demo"
           repo_link="https://github.com/nozomu-y/eTiCKet"
@@ -62,23 +83,6 @@
         </Work>
 
         <Work
-          title="Chor Kleines Website"
-          demo_link="https://nozomu.dev/chorkleines"
-          repo_link=""
-          image_link="images/chorkleines_thumbnail.jpg"
-          image_alt="Chor Kleines Website thumbnail"
-        >
-          <template v-slot:description>
-            <p class="prose text-sm mb-2">
-              An official website for the university choir.
-            </p>
-          </template>
-          <template v-slot:badges>
-            <div class="badge badge-ghost mr-1">Bootstrap</div>
-          </template>
-        </Work>
-
-        <Work
           title="Portfolio Website"
           demo_link=""
           repo_link="https://github.com/nozomu-y/portfolio"
@@ -93,6 +97,23 @@
             <div class="badge badge-ghost mr-1">Tailwind CSS</div>
             <div class="badge badge-ghost mr-1">daisyUI</div>
             <div class="badge badge-ghost mr-1">TypeScript</div>
+          </template>
+        </Work>
+
+        <Work
+          title="Chor Kleines Website"
+          demo_link="https://nozomu.dev/chorkleines"
+          repo_link=""
+          image_link="images/chorkleines_thumbnail.jpg"
+          image_alt="Chor Kleines Website thumbnail"
+        >
+          <template v-slot:description>
+            <p class="prose text-sm mb-2">
+              An official website for the university choir.
+            </p>
+          </template>
+          <template v-slot:badges>
+            <div class="badge badge-ghost mr-1">Bootstrap</div>
           </template>
         </Work>
 
