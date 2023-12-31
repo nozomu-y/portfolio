@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "LINE SEED";
+  font-weight: 400;
+  src: url("/fonts/LINESeedSans_W_Rg.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "LINE SEED";
+  font-weight: 700;
+  src: url("/fonts/LINESeedSans_W_Bd.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "LINE SEED";
+  font-weight: 900;
+  src: url("/fonts/LINESeedSans_W_XBd.woff2") format("woff2");
+}
+
+body {
+  font-family: "LINE SEED";
+}
