@@ -59,6 +59,50 @@
                 >
                   <img
                     class="align-middle max-h-full max-w-full px-3"
+                    src="/images/LY_Corporation_Logo.png"
+                    alt="LY Corporation Logo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="flex-1">
+              <div class="text-lg font-extrabold">LY Corporation</div>
+              <div class="text-base-content/70 text-sm">
+                Software Engineer – Part-time
+              </div>
+              <div class="text-base-content/70 text-sm">
+                December 2023 – Present
+              </div>
+              <div class="text-base-content/70 text-sm">Tokyo, Japan</div>
+            </div>
+          </div>
+          <hr class="my-3" />
+          <!-- <div class="prose text-sm mb-3"> -->
+          <!--   <strong>Responsibility:</strong> -->
+          <!--   <p>Backend system development and API development of LINE NEWS.</p> -->
+          <!-- </div> -->
+          <div>
+            <div class="badge badge-ghost mr-1">SRE</div>
+            <div class="badge badge-ghost mr-1">CI/CD</div>
+            <div class="badge badge-ghost mr-1">GitHub Actions</div>
+            <div class="badge badge-ghost mr-1">Docker</div>
+            <div class="badge badge-ghost mr-1">Kubernetes</div>
+          </div>
+        </div>
+
+        <div
+          class="not-prose bg-base-100 rounded-box w-full shadow-xl p-4 pt-4 pb-4"
+        >
+          <div class="flex gap-4 my-2 items-center">
+            <div class="flex-none">
+              <div
+                class="mask mask-squircle bg-base-content bg-opacity-10 h-24 w-24 p-px"
+              >
+                <div
+                  class="mask mask-squircle bg-white flex items-center justify-center h-full w-full"
+                >
+                  <img
+                    class="align-middle max-h-full max-w-full px-3"
                     src="/images/LINE_Corporation_Logo.png"
                     alt="LINE Corp Logo"
                   />
@@ -77,14 +121,16 @@
             </div>
           </div>
           <hr class="my-3" />
-          <div class="prose text-sm mb-3">
-            <strong>Responsibility:</strong>
-            <p>
-              Web application development and API development for LINE NEWS, as
-              well as backend system development.
-            </p>
-          </div>
+          <!-- <div class="prose text-sm mb-3"> -->
+          <!--   <strong>Responsibility:</strong> -->
+          <!--   <p>Backend system development and API development of LINE NEWS.</p> -->
+          <!-- </div> -->
           <div>
+            <div class="badge badge-ghost mr-1">SRE</div>
+            <div class="badge badge-ghost mr-1">CI/CD</div>
+            <div class="badge badge-ghost mr-1">GitHub Actions</div>
+            <div class="badge badge-ghost mr-1">Docker</div>
+            <div class="badge badge-ghost mr-1">Kubernetes</div>
             <div class="badge badge-ghost mr-1">Java</div>
             <div class="badge badge-ghost mr-1">Spring Boot</div>
           </div>
@@ -121,37 +167,47 @@
             </div>
           </div>
           <hr class="my-3" />
-          <div class="prose text-sm mb-3">
-            <strong>Responsibility:</strong>
-            <p>
-              Web application development and API development for LINE NEWS, as
-              well as backend system development.
-            </p>
-            <strong>Achievement:</strong>
-            <ul class="list-disc list-outside ml-5">
-              <li>
-                Constructed an automated infrastructure for load testing and
-                scenario generation.
-              </li>
-              <li>
-                Migrated the content management system for LINE NEWS and
-                improved the UI.
-              </li>
-            </ul>
-            <p class="mt-2">
-              <a
-                href="https://engineering.linecorp.com/ja/blog/automated-load-testing-scenario"
-                target="_blank"
-                class="link"
-                >Internship Report (Japanese)</a
-              >
-            </p>
-          </div>
+          <!-- <div class="prose text-sm mb-3"> -->
+          <!--   <strong>Responsibility:</strong> -->
+          <!--   <p> -->
+          <!--     Backend system development and API development of LINE NEWS, as -->
+          <!--     well as web application development. -->
+          <!--   </p> -->
+          <!--   <strong>Achievement:</strong> -->
+          <!--   <ul class="list-disc list-outside ml-5"> -->
+          <!--     <li> -->
+          <!--       Constructed an automated infrastructure for load testing and -->
+          <!--       scenario generation using <strong>k6</strong> and -->
+          <!--       <strong>Drone CI</strong> for load testing and -->
+          <!--       <strong>Node.js</strong>, <strong>Docker</strong>, and -->
+          <!--       <strong>Jenkins</strong> -->
+          <!--       for scenario generation. This enabled the team to notice -->
+          <!--       performance issues before deploying to production. (<a -->
+          <!--         href="https://engineering.linecorp.com/ja/blog/automated-load-testing-scenario" -->
+          <!--         target="_blank" -->
+          <!--         class="link" -->
+          <!--         >Internship Report</a -->
+          <!--       >) -->
+          <!--     </li> -->
+          <!--     <li> -->
+          <!--       Migrated the content management system for LINE NEWS from Spring -->
+          <!--       Boot and Thymeleaf to <strong>Spring Boot</strong> for the API -->
+          <!--       and <strong>Vue.js</strong> -->
+          <!--       for the front end. This not only made the system more -->
+          <!--       maintainable, but also improved the loading speed by using -->
+          <!--       client-side rendering. -->
+          <!--     </li> -->
+          <!--   </ul> -->
+          <!-- </div> -->
           <div>
+            <div class="badge badge-ghost mr-1">SRE</div>
+            <div class="badge badge-ghost mr-1">CI/CD</div>
+            <div class="badge badge-ghost mr-1">Docker</div>
+            <div class="badge badge-ghost mr-1">Node.js</div>
             <div class="badge badge-ghost mr-1">Java</div>
             <div class="badge badge-ghost mr-1">Spring Boot</div>
-            <div class="badge badge-ghost mr-1">JavaScript</div>
-            <div class="badge badge-ghost mr-1">Vue.js</div>
+            <!-- <div class="badge badge-ghost mr-1">JavaScript</div> -->
+            <!-- <div class="badge badge-ghost mr-1">Vue.js</div> -->
           </div>
         </div>
 
@@ -186,25 +242,26 @@
             </div>
           </div>
           <hr class="my-3" />
-          <div class="prose text-sm mb-3">
-            <strong>Responsibility:</strong>
-            <p>
-              Discovery of user issues, planning, development, and post-release
-              verification.
-            </p>
-            <strong>Achievement:</strong>
-            <ul class="list-disc list-outside ml-5">
-              <li>
-                Collaborated with the backend team and improved the UI/UX of the
-                Cookpad iOS app.
-              </li>
-            </ul>
-          </div>
+          <!-- <div class="prose text-sm mb-3"> -->
+          <!--   <strong>Responsibility:</strong> -->
+          <!--   <p> -->
+          <!--     Discovery of user issues, planning, development, and post-release -->
+          <!--     verification. -->
+          <!--   </p> -->
+          <!--   <strong>Achievement:</strong> -->
+          <!--   <ul class="list-disc list-outside ml-5"> -->
+          <!--     <li> -->
+          <!--       Collaborated with the backend team and added a new feature for -->
+          <!--       the Cookpad iOS app using -->
+          <!--       <strong>Swift</strong> and <strong>SwiftUI</strong>. This -->
+          <!--       contributed to improving the user experience of the app. -->
+          <!--     </li> -->
+          <!--   </ul> -->
+          <!-- </div> -->
           <div>
             <div class="badge badge-ghost mr-1">iOS</div>
             <div class="badge badge-ghost mr-1">Swift</div>
             <div class="badge badge-ghost mr-1">Swift UI</div>
-            <div class="badge badge-ghost mr-1">UI Kit</div>
           </div>
         </div>
       </div>
